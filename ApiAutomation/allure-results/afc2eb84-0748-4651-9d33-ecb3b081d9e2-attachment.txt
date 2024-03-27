@@ -1,0 +1,35 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 4' test cases in the current suite                                        
+                                                Test Method: 'api.tests.testTodoApis.addNewTodo'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @28-03-2024 00:18:47.0750 AM
+[ReportManager] Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE". @28-03-2024 00:18:47.0795 AM
+[ReportManager] Assertion Passed: "200" is equal to "200". @28-03-2024 00:18:47.0800 AM
+[ReportManager] Evaluating the actual response status code 200 against the expected one 200. @28-03-2024 00:18:47.0815 AM
+[ReportManager] Request details:  "POST | Target Status Code: 200 | Service URL: https://todo.qacart.com/api/v1/users/login | Content Type: application/json | Response Time: 2294ms". @28-03-2024 00:18:49.0144 AM
+[ReportManager] Successfully created attachment 'API Request - Specifications' @28-03-2024 00:18:49.0146 AM
+[ReportManager] Successfully created attachment 'API Request - JSON Body' @28-03-2024 00:18:49.0148 AM
+[ReportManager] Successfully created attachment 'API Response - JSON Body' @28-03-2024 00:18:49.0150 AM
+[ReportManager] Get response status code "200". @28-03-2024 00:18:49.0151 AM
+[ReportManager] Get response jsonvalue "firstName". @28-03-2024 00:18:49.0697 AM
+[ReportManager] Expected "test", and actual "test" @28-03-2024 00:18:49.0699 AM
+[ReportManager] Assertion "ValidateEquals" PASSED. Expected "test" and Actual "test". Comparison Type "EQUALS". Validation Type "POSITIVE". @28-03-2024 00:18:49.0713 AM
+[ReportManager] Assertion Passed: the API response extracted value from the JSON path "firstName" is equal to "test". @28-03-2024 00:18:49.0713 AM
+[ReportManager] the API response extracted value from the JSON path "firstName" is equal to "test". @28-03-2024 00:18:49.0714 AM
+[ReportManager] Get response jsonvalue "access_token". @28-03-2024 00:18:49.0716 AM
+[ReportManager] Response status code: "201", status line: "HTTP/1.1 201 Created" @28-03-2024 00:18:50.0548 AM
+[ReportManager] Assertion "ValidateComparativeRelation" PASSED. Expected "201" and Actual "201". Comparison Type "EQUALS". Validation Type "POSITIVE". @28-03-2024 00:18:50.0557 AM
+[ReportManager] Assertion Passed: "201" is equal to "201". @28-03-2024 00:18:50.0559 AM
+[ReportManager] Evaluating the actual response status code 201 against the expected one 201. @28-03-2024 00:18:50.0559 AM
+[ReportManager] Request details:  "POST | Target Status Code: 201 | Service URL: https://todo.qacart.com/api/v1/tasks | Content Type: application/json | Response Time: 800ms". @28-03-2024 00:18:50.0607 AM
+[ReportManager] Successfully created attachment 'API Request - Specifications' @28-03-2024 00:18:50.0610 AM
+[ReportManager] Successfully created attachment 'API Request - JSON Body' @28-03-2024 00:18:50.0613 AM
+[ReportManager] Successfully created attachment 'API Response - JSON Body' @28-03-2024 00:18:50.0616 AM
+[ReportManager] Get response jsonvalue "item". @28-03-2024 00:18:50.0619 AM
+[ReportManager] Expected "ShaftApi", and actual "ShaftApi" @28-03-2024 00:18:50.0621 AM
+[ReportManager] Assertion "ValidateEquals" PASSED. Expected "ShaftApi" and Actual "ShaftApi". Comparison Type "EQUALS". Validation Type "POSITIVE". @28-03-2024 00:18:50.0622 AM
+[ReportManager] Assertion Passed: the API response extracted value from the JSON path "item" is equal to "ShaftApi". @28-03-2024 00:18:50.0623 AM
+[ReportManager] the API response extracted value from the JSON path "item" is equal to "ShaftApi". @28-03-2024 00:18:50.0624 AM
+[ReportManager] Get response status code "201". @28-03-2024 00:18:50.0625 AM

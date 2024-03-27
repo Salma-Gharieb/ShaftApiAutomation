@@ -1,0 +1,21 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 4' test cases in the current suite                                        
+                                               Test Method: 'api.tests.testTodoApis.authenticate'                                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @28-03-2024 00:18:51.0789 AM
+[ReportManager] Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE". @28-03-2024 00:18:51.0795 AM
+[ReportManager] Assertion Passed: "200" is equal to "200". @28-03-2024 00:18:51.0797 AM
+[ReportManager] Evaluating the actual response status code 200 against the expected one 200. @28-03-2024 00:18:51.0798 AM
+[ReportManager] Request details:  "POST | Target Status Code: 200 | Service URL: https://todo.qacart.com/api/v1/users/login | Content Type: application/json | Response Time: 912ms". @28-03-2024 00:18:51.0856 AM
+[ReportManager] Successfully created attachment 'API Request - Specifications' @28-03-2024 00:18:51.0859 AM
+[ReportManager] Successfully created attachment 'API Request - JSON Body' @28-03-2024 00:18:51.0860 AM
+[ReportManager] Successfully created attachment 'API Response - JSON Body' @28-03-2024 00:18:51.0863 AM
+[ReportManager] Get response status code "200". @28-03-2024 00:18:51.0864 AM
+[ReportManager] Get response jsonvalue "firstName". @28-03-2024 00:18:51.0869 AM
+[ReportManager] Expected "test", and actual "test" @28-03-2024 00:18:51.0871 AM
+[ReportManager] Assertion "ValidateEquals" PASSED. Expected "test" and Actual "test". Comparison Type "EQUALS". Validation Type "POSITIVE". @28-03-2024 00:18:51.0876 AM
+[ReportManager] Assertion Passed: the API response extracted value from the JSON path "firstName" is equal to "test". @28-03-2024 00:18:51.0877 AM
+[ReportManager] the API response extracted value from the JSON path "firstName" is equal to "test". @28-03-2024 00:18:51.0877 AM
+[ReportManager] Get response jsonvalue "access_token". @28-03-2024 00:18:51.0879 AM
