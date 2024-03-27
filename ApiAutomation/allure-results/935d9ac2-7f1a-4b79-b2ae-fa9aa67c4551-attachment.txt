@@ -1,0 +1,57 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 4' test cases in the current suite                                        
+                                                Test Method: 'api.tests.testTodoApis.deleteTask'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @28-03-2024 00:46:02.0187 AM
+[ReportManager] Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE". @28-03-2024 00:46:02.0195 AM
+[ReportManager] Assertion Passed: "200" is equal to "200". @28-03-2024 00:46:02.0197 AM
+[ReportManager] Evaluating the actual response status code 200 against the expected one 200. @28-03-2024 00:46:02.0198 AM
+[ReportManager] Request details:  "POST | Target Status Code: 200 | Service URL: https://todo.qacart.com/api/v1/users/login | Content Type: application/json | Response Time: 435ms". @28-03-2024 00:46:02.0275 AM
+[ReportManager] Successfully created attachment 'API Request - Specifications' @28-03-2024 00:46:02.0284 AM
+[ReportManager] Successfully created attachment 'API Request - JSON Body' @28-03-2024 00:46:02.0288 AM
+[ReportManager] Successfully created attachment 'API Response - JSON Body' @28-03-2024 00:46:02.0301 AM
+[ReportManager] Get response status code "200". @28-03-2024 00:46:02.0313 AM
+[ReportManager] Get response jsonvalue "firstName". @28-03-2024 00:46:02.0318 AM
+[ReportManager] Expected "test", and actual "test" @28-03-2024 00:46:02.0320 AM
+[ReportManager] Assertion "ValidateEquals" PASSED. Expected "test" and Actual "test". Comparison Type "EQUALS". Validation Type "POSITIVE". @28-03-2024 00:46:02.0320 AM
+[ReportManager] Assertion Passed: the API response extracted value from the JSON path "firstName" is equal to "test". @28-03-2024 00:46:02.0321 AM
+[ReportManager] the API response extracted value from the JSON path "firstName" is equal to "test". @28-03-2024 00:46:02.0322 AM
+[ReportManager] Get response jsonvalue "access_token". @28-03-2024 00:46:02.0325 AM
+[ReportManager] Response status code: "201", status line: "HTTP/1.1 201 Created" @28-03-2024 00:46:02.0719 AM
+[ReportManager] Assertion "ValidateComparativeRelation" PASSED. Expected "201" and Actual "201". Comparison Type "EQUALS". Validation Type "POSITIVE". @28-03-2024 00:46:02.0728 AM
+[ReportManager] Assertion Passed: "201" is equal to "201". @28-03-2024 00:46:02.0730 AM
+[ReportManager] Evaluating the actual response status code 201 against the expected one 201. @28-03-2024 00:46:02.0731 AM
+[ReportManager] Request details:  "POST | Target Status Code: 201 | Service URL: https://todo.qacart.com/api/v1/tasks | Content Type: application/json | Response Time: 374ms". @28-03-2024 00:46:02.0770 AM
+[ReportManager] Successfully created attachment 'API Request - Specifications' @28-03-2024 00:46:02.0772 AM
+[ReportManager] Successfully created attachment 'API Request - JSON Body' @28-03-2024 00:46:02.0774 AM
+[ReportManager] Successfully created attachment 'API Response - JSON Body' @28-03-2024 00:46:02.0776 AM
+[ReportManager] Get response jsonvalue "item". @28-03-2024 00:46:02.0779 AM
+[ReportManager] Expected "ShaftApi", and actual "ShaftApi" @28-03-2024 00:46:02.0780 AM
+[ReportManager] Assertion "ValidateEquals" PASSED. Expected "ShaftApi" and Actual "ShaftApi". Comparison Type "EQUALS". Validation Type "POSITIVE". @28-03-2024 00:46:02.0781 AM
+[ReportManager] Assertion Passed: the API response extracted value from the JSON path "item" is equal to "ShaftApi". @28-03-2024 00:46:02.0782 AM
+[ReportManager] the API response extracted value from the JSON path "item" is equal to "ShaftApi". @28-03-2024 00:46:02.0782 AM
+[ReportManager] Get response status code "201". @28-03-2024 00:46:02.0783 AM
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @28-03-2024 00:46:03.0136 AM
+[ReportManager] Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE". @28-03-2024 00:46:03.0138 AM
+[ReportManager] Assertion Passed: "200" is equal to "200". @28-03-2024 00:46:03.0138 AM
+[ReportManager] Evaluating the actual response status code 200 against the expected one 200. @28-03-2024 00:46:03.0139 AM
+[ReportManager] Request details:  "GET | Target Status Code: 200 | Service URL: https://todo.qacart.com/api/v1/tasks | Content Type: application/json | Response Time: 344ms". @28-03-2024 00:46:03.0163 AM
+[ReportManager] Successfully created attachment 'API Request - Specifications' @28-03-2024 00:46:03.0165 AM
+[ReportManager] Successfully created attachment 'API Response - JSON Body' @28-03-2024 00:46:03.0167 AM
+[ReportManager] Get response status code "200". @28-03-2024 00:46:03.0168 AM
+[ReportManager] Get response jsonvalue "tasks". @28-03-2024 00:46:03.0170 AM
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @28-03-2024 00:46:03.0560 AM
+[ReportManager] Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE". @28-03-2024 00:46:03.0565 AM
+[ReportManager] Assertion Passed: "200" is equal to "200". @28-03-2024 00:46:03.0566 AM
+[ReportManager] Evaluating the actual response status code 200 against the expected one 200. @28-03-2024 00:46:03.0569 AM
+[ReportManager] Request details:  "DELETE | Target Status Code: 200 | Service URL: https://todo.qacart.com/api/v1/tasks/6604a1a83af1450014017aea | Content Type: application/json | Response Time: 374ms". @28-03-2024 00:46:03.0649 AM
+[ReportManager] Successfully created attachment 'API Request - Specifications' @28-03-2024 00:46:03.0651 AM
+[ReportManager] Successfully created attachment 'API Response - JSON Body' @28-03-2024 00:46:03.0652 AM
+[ReportManager] Get response status code "200". @28-03-2024 00:46:03.0653 AM
+[ReportManager] Get response jsonvalue "item". @28-03-2024 00:46:03.0657 AM
+[ReportManager] Expected "ShaftApi", and actual "ShaftApi" @28-03-2024 00:46:03.0658 AM
+[ReportManager] Assertion "ValidateEquals" PASSED. Expected "ShaftApi" and Actual "ShaftApi". Comparison Type "EQUALS". Validation Type "POSITIVE". @28-03-2024 00:46:03.0658 AM
+[ReportManager] Assertion Passed: the API response extracted value from the JSON path "item" is equal to "ShaftApi". @28-03-2024 00:46:03.0660 AM
+[ReportManager] the API response extracted value from the JSON path "item" is equal to "ShaftApi". @28-03-2024 00:46:03.0660 AM

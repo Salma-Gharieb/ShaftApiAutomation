@@ -6,11 +6,12 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 import java.util.HashMap;
 
-
 public class testTodoApis {
+    SHAFT.GUI.WebDriver driver ;
     static SHAFT.API api = new SHAFT.API("https://todo.qacart.com");
     static String token;
     static String itemName;
@@ -86,6 +87,12 @@ public class testTodoApis {
 
         Assert.assertEquals(api.getResponseStatusCode(), 200);
         api.assertThatResponse().extractedJsonValue("item").equals(itemName);
+    }
+
+    @AfterClass(alwaysRun = true)
+    public void afterClass(){
+        driver = new SHAFT.GUI.WebDriver();
+        driver.quit();
     }
 }
 

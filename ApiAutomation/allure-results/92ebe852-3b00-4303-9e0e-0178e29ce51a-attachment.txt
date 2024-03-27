@@ -1,0 +1,6 @@
+[ReportManager] Setting "targetOperatingSystem" property with "windows". @28-03-2024 00:46:05.0262 AM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\HP\Downloads\ApiAu..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true} @28-03-2024 00:46:05.0282 AM
+[ReportManager] Attempting to run locally on: "Windows | Chrome". @28-03-2024 00:46:05.0283 AM
+[ReportManager] Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection... @28-03-2024 00:46:05.0284 AM
+[ReportManager] Successfully Opened: "Windows | Chrome". @28-03-2024 00:46:07.0881 AM
+[ReportManager] Successfully Closed Driver. @28-03-2024 00:46:08.0664 AM

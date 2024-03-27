@@ -1,0 +1,7 @@
+Headers:
+_______________
+
+Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MDQyZjVkMjUxOGI3MDAxNGRlODg5MCIsImZpcnN0TmFtZSI6InRlc3QiLCJsYXN0TmFtZSI6InVzZXIiLCJpYXQiOjE3MTE1Nzk1NjJ9.BYeKxKTplIue_x8YyZh2QXpjWdTKTV5pyPXdsj1T84A
+Set-Cookie=firstName=test; Path=/
+Content-Type=application/json
+
